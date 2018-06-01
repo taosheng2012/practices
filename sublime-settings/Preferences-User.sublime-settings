@@ -19,4 +19,6 @@
 	"tab_completion": false,
 	"translate_tabs_to_spaces": true,
 	"word_wrap": true,
+	"show_encoding": true
+
 }
