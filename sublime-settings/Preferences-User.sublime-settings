@@ -1,43 +1,22 @@
 {
-    "font_size": 14,
-
-    // If enabled, will highlight any line with a caret
-    "highlight_line": false,
-
-    // Valid values are "smooth", "phase", "blink" and "solid".
-    "caret_style": "wide",
-
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
-
-    // When enabled, hovering over a word will show a popup listing all
-    // possible locations for the definition symbol. Requires index_files.
-    "show_definitions": false,
-
-    // Enable auto complete to be triggered automatically when typing.
-    "auto_complete": false,
-
-    // Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
-
-    // Set to true to automatically save files when switching to a different file
-    // or application
-    "save_on_focus_lost": true,
-
-    "show_tab_close_buttons": false,
-
-    // Show folders in the side bar in bold
-    "bold_folder_labels": true,
-
-    // Preview file contents when clicking on a file in the side bar. Double
-    // clicking or editing the preview will open the file and assign it a tab.
-    "preview_on_click": false,
-
-    // File indexing parses all files in the side bar, and builds an index of
-    // their symbols. This is required for Goto Definition to work.
-    "index_files": false,
-
-    // Draws text centered in the window rather than left aligned
-    "draw_centered": true,
+	"auto_complete": false,
+	"bold_folder_labels": true,
+	"caret_style": "wide",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"draw_centered": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 14,
+	"highlight_line": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": false,
+	"preview_on_click": false,
+	"save_on_focus_lost": true,
+	"show_definitions": false,
+	"show_tab_close_buttons": false,
+	"tab_completion": false,
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true,
 }
