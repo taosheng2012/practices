@@ -20,5 +20,6 @@
     "translate_tabs_to_spaces": true,
     "word_wrap": true,
     "show_encoding": true,
-    "fallback_encoding": "UTF-8"
+    "fallback_encoding": "UTF-8",
+    "close_windows_when_empty": true
 }
