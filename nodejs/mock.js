@@ -62,10 +62,8 @@ const arr = [
     {
         num1: "@FIRST",
         num2: "@LAST",
-        num3: "@num1 @num2",
+        num3: "@num1 @num2"
     }
-
-
 ];
 
 log(arr.map((item, index) => Mock.mock(item)));
