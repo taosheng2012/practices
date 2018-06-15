@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>First Website</title>
+</head>
+
+<body>
+    <h1 class="title">Hello. This is my website.(海滨小镇)</h1>
+    <h2 class="user"></h2>
+    <div class="picture">
+        <p>A small village <strong>on the coast</strong>.</p>
+        <img width=500 height=300 src="./001.jpg" alt="This is an image.">
+    </div>
+    <button>Change user</button>
+    <div class="contents">
+        <div class="contents-left">
+            <p>This is element ul.</p>
+            <ul>
+                <li>Yes</li>
+                <li>OK</li>
+                <li>Good</li>
+            </ul>
+        </div>
+        <div class="contents-right">
+            <p>This is element ol.</p>
+            <ol>
+                <li>No</li>
+                <li>Seldom</li>
+                <li>Bad</li>
+            </ol>
+        </div>
+    </div>
+    <script>
+    var the_img = document.querySelector('img');
+
+    the_img.onclick = function() {
+        var the_src = the_img.getAttribute('src');
+
+        if (the_src === './001.jpg') {
+            the_img.setAttribute('src', './002.jpg');
+        } else {
+            the_img.setAttribute('src', './001.jpg');
+        }
+
+    }
+
+    var the_btn = document.querySelector('button');
+    var the_heading = document.querySelector('h2');
+
+    localStorage.setItem('user_name', "John");
+    the_heading.textContent = localStorage.getItem("user_name") + ', Welcome!';
+
+    the_btn.onclick = function set_user_name() {
+        var user_name = prompt('Please enter your name.');
+
+        localStorage.setItem('user_name', user_name);
+        the_heading.textContent = localStorage.getItem("user_name") + ', Welcome!';
+        
+    };
+    </script>
+</body>
+
+</html>

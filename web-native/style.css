@@ -1,0 +1,51 @@
+html {
+	background-color: #eee;
+}
+
+body {
+	padding: 0 40px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+p {
+	color: green;
+}
+
+ul,
+ol {
+	color: green;
+}
+
+
+.title{
+	margin: 0px;
+	padding-bottom: 20px;
+
+	font-size: 30px;
+	color: #00539f;
+	text-shadow: 2px 2px 1px #00539f;
+}
+
+.user{
+	color: #00539f;
+	font-size: 30px;
+
+	margin: 0px;
+}
+
+.contents{
+	display: flex;
+}
+
+.contents-left{
+	flex: 1;
+}
+
+.contents-right{
+	flex: 1;
+}
+
