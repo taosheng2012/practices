@@ -17,6 +17,8 @@
     "show_definitions": false,
     "show_tab_close_buttons": false,
     "tab_completion": false,
+    "detect_indentation": false,
+    "trim_automatic_white_space": false,
     "translate_tabs_to_spaces": true,
     "word_wrap": true,
     "show_encoding": true,
