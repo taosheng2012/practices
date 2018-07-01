@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <link href="./style.css" rel="stylesheet" type="text/css">
     <title>First Website</title>
+    <script>
+        console.log(window.innerHeight)
+        window.addEventListener("resize",(event)=>console.log(window.innerHeight,event))
+    console.log("HTML Start")
+    </script>
 </head>
 
 <body>
@@ -58,8 +63,25 @@
 
         localStorage.setItem('user_name', user_name);
         the_heading.textContent = localStorage.getItem("user_name") + ', Welcome!';
-        
+
     };
+    document.onload = (event) => console.log("doc",event);
+    
+        the_btn.style.position="absolute";
+    
+    var start=null
+    function callback(timestamp) {
+        if(!start)  start=timestamp;
+        
+        var p=timestamp-start
+        the_btn.style.left=p/5+"px"
+        
+        if(p<1000) window.requestAnimationFrame(callback)
+        
+    }
+    
+    window.requestAnimationFrame(callback)
+    console.log("HTML End")
     </script>
 </body>
 
