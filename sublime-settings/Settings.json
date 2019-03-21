@@ -1,24 +1,15 @@
 {
-	"auto_complete": false,
-	"bold_folder_labels": true,
-	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-	"detect_indentation": false,
-	"draw_centered": true,
-	"ensure_newline_at_eof_on_save": true,
-	"highlight_line": false,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"index_files": false,
-	"preview_on_click": false,
-	"save_on_focus_lost": true,
-	"show_definitions": false,
-	"show_encoding": true,
-	"show_tab_close_buttons": false,
-	"tab_completion": false,
-	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": false,
-	"word_wrap": true
+    "ignored_packages": [
+        "Vintage"
+    ],
+    "show_git_status": false,
+    "preview_on_click": false,
+    "index_files": false,
+    "save_on_focus_lost": true,
+    "trim_automatic_white_space": false,
+    "translate_tabs_to_spaces": true,
+    "mini_diff": false,
+    "show_tab_close_buttons": false,
+    "caret_style": "solid",
+
 }
